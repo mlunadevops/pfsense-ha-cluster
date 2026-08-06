@@ -89,6 +89,7 @@ A continuación se detallan las direcciones IP y las asignaciones de puerto basa
    - `em2` como **SYNC** (IP Estática: `172.16.0.2/24`).
 
 ![Asignación de Interfaces en MAIN](./images/02-main-interface-assignment.png)
+![Topología High Availability pfSense](images/1Topologia.png)
 
 | Interfaces | Estado / Dúplex | Dirección IP |
 | :--- | :---: | :--- |
