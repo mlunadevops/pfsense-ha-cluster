@@ -105,7 +105,7 @@ A continuación se detallan las direcciones IP y las asignaciones de puerto basa
    - **Destination:** `Any`
    - **Description:** `SYNCHRONIZATION PERMIT RULE`
 
-![Regla de Firewall SYNC](./images/03-main-sync-firewall-rule.png)
+![Regla de Firewall SYNC](images/03-main-sync-firewall-rule.png)
 
 ---
 
