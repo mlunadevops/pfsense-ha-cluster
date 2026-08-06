@@ -5,7 +5,7 @@
 
 ## 1. Topología de Red y Direccionamiento IP
 
-![Topología High Availability pfSense](images/1Topologia.png)
+![Topología High Availability pfSense](images/01-topologia-ha.png)
 
 ### Requisitos Previos
 * **Versión del Sistema:** Ambos nodos deben tener instalada la misma versión de pfSense Plus[cite: 1].
