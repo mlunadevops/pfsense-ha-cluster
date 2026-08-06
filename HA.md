@@ -90,6 +90,7 @@ A continuación se detallan las direcciones IP y las asignaciones de puerto basa
 
 ![Asignación de Interfaces en MAIN](./images/02-main-interface-assignment.png)
 ![Topología High Availability pfSense](images/1Topologia.png)
+![Asignación de Interfaces y Reglas SYNC en Master](images/2Requerimientos.png)
 
 | Interfaces | Estado / Dúplex | Dirección IP |
 | :--- | :---: | :--- |
