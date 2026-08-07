@@ -46,4 +46,6 @@
    * `em2` como **SYNC** (IP Estática: `172.16.0.3/24`)[cite: 1].
 2. Vaya a **Firewall > Rules > SYNC** y agregue la misma regla de paso total[cite: 1].
 
+![Asignación de Interfaces y Reglas SYNC en Master](images/02-secondary-interface-assignment.png)
+
 ---
