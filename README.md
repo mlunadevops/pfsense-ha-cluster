@@ -34,8 +34,6 @@
    * `em0` como **WAN** (IP Estática: `192.168.2.2/24`, Gateway: `192.168.2.4`)[cite: 1].
    * `em1` como **LAN** (IP Estática: `192.168.1.2/24`).
    * `em2` como **SYNC** (IP Estática: `172.16.0.2/24`).
-2. Vaya a **Firewall > Rules > SYNC** y agregue una regla de paso total:
-   * **Action:** Pass | **Interface:** SYNC | **Address Family:** IPv4 | **Protocol:** Any | **Source:** SYNC net | **Destination:** Any[cite: 1].
 
  ![Asignación de Interfaces en firewall MASTER](images/02-main-interface-assignment.png)
 
@@ -44,7 +42,6 @@
    * `em0` como **WAN** (IP Estática: `192.168.2.3/24`, Gateway: `192.168.2.4`).
    * `em1` como **LAN** (IP Estática: `192.168.1.3/24`).
    * `em2` como **SYNC** (IP Estática: `172.16.0.3/24`).
-2. Vaya a **Firewall > Rules > SYNC** y agregue la misma regla de paso total[.
 
 ![Asignación de Interfaces en firewall SECONDARY](images/02-secondary-interface-assignment.png)
 
