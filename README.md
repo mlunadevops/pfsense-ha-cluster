@@ -37,7 +37,7 @@
 2. Vaya a **Firewall > Rules > SYNC** y agregue una regla de paso total:
    * **Action:** Pass | **Interface:** SYNC | **Address Family:** IPv4 | **Protocol:** Any | **Source:** SYNC net | **Destination:** Any[cite: 1].
 
- ![Asignación de Interfaces y Reglas SYNC en Master](images/2Requerimientos.png)
+ ![Asignación de Interfaces y Reglas SYNC en Master](images/02-main-interface-assignment.png)
 
 ### PASO 2: Asignación de Interfaces y Reglas SYNC en Nodo Secundario (SECONDARY)
 1. Vaya a **Interfaces > Asignación** y configure:
