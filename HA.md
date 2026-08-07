@@ -47,8 +47,9 @@
                        +------------------+
 ```	   
 					   
-                                            ![Topología High Availability pfSense](images/01-topologia-ha.png)
-
+                                           
+											
+![Topología High Availability pfSense](images/01-topologia-ha.png)
 > **Virtual IPs (CARP):**
 > - **CARP WAN:** `192.168.2.1/24` (VHID 1)
 > - **CARP LAN:** `192.168.1.1/24` (VHID 2)
