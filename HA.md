@@ -47,7 +47,7 @@
                        +------------------+
 					   
 					   
-					   ![Topología High Availability](./images/01-topologia-ha.png)
+![Topología High Availability](images/01-topologia-ha.png)
 
 > **Virtual IPs (CARP):**
 > - **CARP WAN:** `192.168.2.1/24` (VHID 1)
