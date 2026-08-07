@@ -11,6 +11,8 @@
 * **Versión del Sistema:** Ambos nodos deben tener instalada la misma versión de pfSense Plus[cite: 1].
 * **Time Zone:** Ambos firewalls deben compartir la misma zona horaria sincronizada por NTP[cite: 1].
 
+ ![Asignación de Interfaces y Reglas SYNC en Master](images/2Requerimientos.png)
+
 ### Resumen de Direccionamiento IP
 
 | Interfaz / Función | Interfaz Física | Firewall MAIN (Primary) | Firewall SECONDARY (Backup) | IP Virtual (CARP) / Gateway |
@@ -35,7 +37,6 @@
 2. Vaya a **Firewall > Rules > SYNC** y agregue una regla de paso total:
    * **Action:** Pass | **Interface:** SYNC | **Address Family:** IPv4 | **Protocol:** Any | **Source:** SYNC net | **Destination:** Any[cite: 1].
 
-![Asignación de Interfaces y Reglas SYNC en Master](images/2Requerimientos.png)
 
 ### PASO 2: Asignación de Interfaces y Reglas SYNC en Nodo Secundario (SECONDARY)
 1. Vaya a **Interfaces > Asignación** y configure:
