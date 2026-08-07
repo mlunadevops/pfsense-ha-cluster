@@ -23,7 +23,7 @@
 | **ISP Gateway** | - | - | - | 192.168.2.4 |
 
 > **Nota Relevante sobre Interfaz SYNC:**  
-> La interfaz `em2` se utiliza de forma dedicada para la sincronización de estados (`pfsync`) y reglas de configuración (`XMLRPC`). Se recomienda que esta conexión sea directa mediante un cable cruzado/directo o en una VLAN aislada[cite: 1].
+> La interfaz `em2` se utiliza de forma dedicada para la sincronización de estados (`pfsync`) y reglas de configuración (`XMLRPC`). Se recomienda que esta conexión sea directa mediante un cable cruzado/directo o en una VLAN aislada.
 
 ---
 
