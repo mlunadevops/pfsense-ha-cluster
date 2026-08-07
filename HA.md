@@ -47,7 +47,7 @@
                        +------------------+
 ```	   
 					   
-![Topología High Availability](images/01-topologia-ha.png)
+TOPOLOGIA
 ![Topología High Availability pfSense](images/01-topologia-ha.png)
 
 > **Virtual IPs (CARP):**
